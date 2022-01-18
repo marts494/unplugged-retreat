@@ -86,6 +86,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.content-wrapper {
+  width: 90%;
+  margin: 0.2em 0;
+}
+
+/*b ---------- Base Header -----------*/
+
 header,
 footer {
   display: flex;
@@ -94,23 +101,53 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+ padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
+.header-divider {
+  width: 100%;
+  height: ;
+  margin: 0;
+}
+ 
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+}
+
+footer {
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -124,6 +161,14 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
 }
+
+footer .copyright {
+  margin: 20px 0;
+}
+
+/*-------------------- Moblie Styles --------------------*/
+
+/* Hero Area */
 
 /* ==========================================================================
    Helper classes
