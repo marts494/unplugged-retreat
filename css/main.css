@@ -102,6 +102,7 @@ body {
 ul,
 ol {
   list-style-type: none;
+  text-transform: uppercase;
 }
 
 a {
@@ -126,6 +127,14 @@ h4{
 p {
   font-size: .875em;
   line-height: 1.285;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
 }
 
 address {
@@ -189,6 +198,14 @@ header nav ul li {
   font-size: 1.125em;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 footer {
   text-align: center;
   flex-direction: column;
@@ -228,6 +245,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -279,6 +300,10 @@ input[type=button] {
 /* Freatures */
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
