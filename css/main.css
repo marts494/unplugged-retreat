@@ -102,7 +102,6 @@ body {
 ul,
 ol {
   list-style-type: none;
-  text-transform: uppercase;
 }
 
 a {
@@ -163,6 +162,14 @@ header {
 
 header .content-wrapper {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header figure {
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -588,7 +595,8 @@ input[type=button] {
     .reviews h2 {
       width: 85%;
     }
-
+    
+    .reviews article figure,
     .reviews article div {
       width: 49%;
     }
@@ -681,7 +689,7 @@ input[type=button] {
 }
 
 @media only screen and (min-width: 1200px) {
-  /*Destop styles here */
+  /*Desktop styles here */
 
   header {
     padding: 15px 0;
