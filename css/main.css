@@ -94,7 +94,7 @@ html {
 
 body {
   font-size: 1em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #e2e3ed;
   text-align: left;
 }
@@ -102,6 +102,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -113,6 +115,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -142,7 +145,7 @@ address {
 
 .content-wrapper {
   width: 90%;
-  margin: 50% 0;
+  margin: 50px 0;
 }
 
 /*----------- Base Header - Footer Styles ------------*/
@@ -205,14 +208,6 @@ header nav ul li {
   font-size: 1.125em;
 }
 
-header figure {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
 footer {
   text-align: center;
   flex-direction: column;
@@ -251,7 +246,7 @@ footer .copyright {
 
 /* Hero Area */
 
-.hero-area {
+.hero-area { 
   background: url(../img/unplugged-retreat.jpg);
   background-size: cover;
   background-position: center;
@@ -570,9 +565,7 @@ input[type=button] {
     
     /* Hero Area */
     .hero-area h1 {
-      font-size: 3em;
-      line-height: 1;
-      margin: 0;
+     min-height: 600px;
     }
 
     /* Aside */
@@ -741,7 +734,7 @@ input[type=button] {
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
   }
 
   /* Aside */
