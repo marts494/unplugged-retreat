@@ -308,7 +308,6 @@ input[type=button] {
 .features {
   background: url('../img/unplugged-retreat-features.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
   display: flex;
   justify-content: center;
@@ -326,7 +325,7 @@ input[type=button] {
 
 .features .features-items {
   display: flex;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
@@ -601,8 +600,12 @@ input[type=button] {
     }
 
     .features .features-items-description {
-      width: 62%;
+      width: 65%;
     } 
+
+    .features i {
+      margin-bottom: 30px;
+    }
 
     /* Reviews */
     .reviews article {
